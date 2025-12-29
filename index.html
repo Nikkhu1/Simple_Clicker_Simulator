@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      background-color: rgb(216, 233, 248);
+          font-family: Arial;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    button {
+      margin-top: 30px;
+      width: 140px;
+      height: 140px;
+      border: none;
+      border-radius: 50%;
+      background-color: blue;
+      color: white;
+    }
+    .Counter{
+      font-size: 40px;
+    }
+
+    button:hover {
+      background-color: rgb(37, 37, 243);
+      color: aliceblue;
+    }
+
+    button:active{
+      background-color: rgb(21, 21, 158);
+    }
+  </style>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div>
+    <p><span id="counter" class="Counter">0</span></p>
+  <button id="Button1">CLICK</button>
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>
